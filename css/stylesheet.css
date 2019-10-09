@@ -173,7 +173,8 @@ nav ul {
 }
 
 .module.left, .module-group.left {
-  float: left;
+  /* float: left; */
+  /* display: inline; */
 }
 
 .module.right, .module-group.right {
@@ -216,7 +217,7 @@ nav .btn, .nav-bar .btn {
 .nav-bar h2 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 60px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
   font-weight: 500;
@@ -983,8 +984,8 @@ nav.nav-centered.outOfSight .logo {
   display: none;
 }
 
-.vnu {
-  display: inline;
+.vnu img {
+  margin-bottom: 8px;
 }
 
 .logo {
@@ -1288,7 +1289,9 @@ hr.short-thick {
 
 .vnu {
   display: inline;
+  
 }
+
 
 .row-gapless>div[class*='col-'] {
   padding: 0;
