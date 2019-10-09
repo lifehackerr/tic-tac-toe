@@ -259,3 +259,4 @@ function playTurn(row, col) {
 function runcode() {
     eval(editor.getValue());
 }
+
